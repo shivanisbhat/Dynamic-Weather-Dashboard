@@ -6,7 +6,7 @@ const config = {
     DEFAULT_CITY: 'Mumbai',
     API_BASE_URL: 'https://api.weatherapi.com/v1',
     INDIAN_CITIES: [
-        'Mumbai', 'Delhi', 'Bangalore', 'Hyderabad', 'Chennai', 
+        'Mumbai', 'New Delhi', 'Bangalore', 'Hyderabad', 'Chennai', 
         'Kolkata', 'Pune', 'Jaipur', 'Ahmedabad', 'Kochi',
         'Lucknow', 'Chandigarh', 'Bhopal', 'Indore', 'Guwahati'
     ]
