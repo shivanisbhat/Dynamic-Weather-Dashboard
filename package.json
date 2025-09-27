@@ -1,0 +1,16 @@
+﻿{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "Dynamic Weather Dashboard",
+  "main": "browser-app.js",
+  "scripts": {
+    "generate-config": "node generate-config.js",
+    "start": "python -m http.server 8080"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
