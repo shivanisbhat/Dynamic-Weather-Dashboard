@@ -1,0 +1,11 @@
+# Environment and config files
+config.js
+.env
+
+# Node.js files (if you add them back)
+node_modules/
+package-lock.json
+
+# OS files
+.DS_Store
+Thumbs.db

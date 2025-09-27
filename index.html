@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="config.js"></script>
+    <script src="browser-app.js" defer></script>
+</head>
+<body>
+    <h1>Dynamic Weather Dashboard</h1>
+    <p>Get the latest weather updates for your location.</p>
+    <div class="city-selector">
+        <label for="city-select">Select a city in India:</label>
+        <select id="city-select">
+            <!-- Options will be populated from config.js -->
+        </select>
+        <button id="update-city">Update</button>
+    </div>
+    <div id="weather-display" class="weather-container hidden">
+        <h2 id="location-name">Weather in...</h2>
+        <div class="weather-info">
+            <video id="weather-video-icon" autoplay loop muted playsinline>
+                <source src="my_videos/default.mp4" type="video/mp4">
+            </video>
+            <p><strong>Condition:</strong> <span id="condition-text">Loading...</span></p>
+            <p><strong>Temperature:</strong> <span id="temperature">--</span>°C</p>
+            <p><strong>Feels Like:</strong> <span id="feels-like">--</span>°C</p>
+            <p><strong>Wind Speed:</strong> <span id="wind-speed">--</span> kph</p>
+            <p><strong>Air Quality (PM2.5):</strong> <span id="air-quality">--</span></p>
+        </div>
+        
+        <div class="forecast-section">
+            <h3>5-Day Forecast</h3>
+            <div id="forecast-container" class="forecast-container">
+                <!-- Forecast cards will be dynamically inserted here -->
+            </div>
+        </div>
+    </div>
+    <div id="error-display" class="hidden">
+        <p>Error loading weather data. Please try again later.</p>
+    </div>
+    <div id="loading-display">
+        <p>Loading weather data...</p>
+    </div>
+</body>
+</html>
