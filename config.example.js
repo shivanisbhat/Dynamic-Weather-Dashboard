@@ -1,8 +1,8 @@
-// Example configuration file for Weather App
-// Copy this file to config.js and update with your actual API key
+// Weather App Configuration
+// Replace 'YOUR_API_KEY_HERE' with your actual WeatherAPI.com API key
 
 const config = {
-    WEATHER_API_KEY: 'your_weatherapi_key_here', // Get your key from weatherapi.com
+    WEATHER_API_KEY: 'YOUR_API_KEY_HERE', // Get your key from weatherapi.com
     DEFAULT_CITY: 'Mumbai',
     API_BASE_URL: 'https://api.weatherapi.com/v1',
     INDIAN_CITIES: [
