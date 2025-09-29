@@ -38,7 +38,7 @@ The app can be configured by editing the `config.js` file:
 
 ## Screenshots
 
-![Weather Dashboard](Weather app .png)
+![Weather Dashboard](Weatherapp.png)
 
 ## License
 
