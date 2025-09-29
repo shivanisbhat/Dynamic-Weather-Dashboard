@@ -86,7 +86,7 @@ Then open your browser and navigate to:
 http://localhost:8000
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 weather-dashboard/
@@ -100,7 +100,7 @@ weather-dashboard/
 └── Weatherapp.png         # Screenshot (optional)
 ```
 
-## ⚙️ Configuration
+##  Configuration
 
 ### Step 2: Create Your Configuration File
 
@@ -111,12 +111,12 @@ The repository includes `config.example.js` as a template. You need to copy it t
 ```cmd
 copy config.example.js config.js
 ```
-✅ After this step, you should have both files:
+After this step, you should have both files:
 - `config.example.js` - Template (don't edit this)
 - `config.js` - Your personal config (edit this one)
 ---
 
-## 🎨 Dynamic Backgrounds
+## Dynamic Backgrounds
 
 The app automatically changes video backgrounds based on:
 - **Sunny**: Clear sky with sun
@@ -124,7 +124,7 @@ The app automatically changes video backgrounds based on:
 - **Rainy**: Rain, drizzle, or storms
 - **Night**: Nighttime across all weather conditions
 
-## 🌐 Supported Cities
+## Supported Cities
 
 The app comes pre-configured with these Indian cities:
 - Mumbai
@@ -145,7 +145,7 @@ The app comes pre-configured with these Indian cities:
 
 You can easily add more cities by editing the `INDIAN_CITIES` array in `config.js`.
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **HTML5** - Semantic markup
 - **CSS3** - Modern styling with Grid, Flexbox, and animations
@@ -153,15 +153,15 @@ You can easily add more cities by editing the `INDIAN_CITIES` array in `config.j
 - **WeatherAPI.com** - Real-time weather data
 - **Pixabay Videos** - Dynamic video backgrounds
 
-## 📱 Browser Support
+## Browser Support
 
-- ✅ Chrome (latest)
-- ✅ Firefox (latest)
-- ✅ Safari (latest)
-- ✅ Edge (latest)
-- ✅ Mobile browsers (iOS Safari, Chrome Mobile)
+- Chrome (latest)
+- Firefox (latest)
+- Safari (latest)
+- Edge (latest)
+- Mobile browsers (iOS Safari, Chrome Mobile)
 
-## 🔒 Security Note
+## Security Note
 
 **IMPORTANT:** Never commit your `config.js` file with your actual API key to GitHub!
 
@@ -184,7 +184,7 @@ The `.gitignore` file is configured to exclude `config.js` from version control.
 - Free tier allows 1,000,000 calls per month
 - If exceeded, upgrade your plan or wait for the monthly reset
 
-## 📄 License
+## License
 
 MIT License
 
@@ -196,7 +196,7 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
@@ -206,11 +206,11 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📧 Contact
+## Contact
 
 For questions or suggestions, please open an issue on GitHub.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Weather data provided by [WeatherAPI.com](https://www.weatherapi.com/)
 - Video backgrounds from [Pixabay](https://pixabay.com/)
