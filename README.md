@@ -5,7 +5,7 @@ A beautiful and responsive weather application that displays current weather con
 ## Features
 
 - Current weather conditions display
-- 5-day weather forecast
+- 2-day weather forecast
 - Dynamic video backgrounds based on weather conditions
 - City selector for major Indian cities
 - Responsive design that works on mobile and desktop
@@ -38,7 +38,7 @@ The app can be configured by editing the `config.js` file:
 
 ## Screenshots
 
-![Weather Dashboard](screenshots/dashboard.png)
+![Weather Dashboard](Weather app .png)
 
 ## License
 
